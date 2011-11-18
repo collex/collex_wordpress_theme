@@ -1,0 +1,167 @@
+/*
+Theme Name:     Collex
+Theme URI:      http://performantsoftware.com/wp/theme/collex
+Description:    Theme to use for Collex installations 
+Author:         Paul Rosen
+Author URI:     http://performantsoftware.com/
+Template:       hybrid
+Version:        0.1.0
+*/
+
+@import url("../hybrid/style.css");
+
+/* FOR POSTS */
+
+#body-container {
+	margin: 0;
+}
+
+#header-container {
+	display: none;
+}
+
+#primary {
+	border: 0;
+	border-right: 2px solid gray;
+	width: 250px;
+	float: inherit;
+}
+
+#container  {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	margin-top: 20px;
+	width: 880px;
+}
+
+.content {
+	float: right;
+}
+
+.post ul li, .sidebar ul li {
+	list-style: none;
+}
+
+.post ul li::before, .sidebar ul li::before {
+	content: "» ";
+}
+
+.widget-title {
+	text-align: center;
+	color: #333;
+}
+
+.search-form {
+	margin-bottom: 32px;
+}
+
+input.search-text {
+	width: 108px;
+	margin-right: 4px;
+}
+
+.textwidget, .widget-search {
+	padding-left: 34px;
+	padding-right: 20px;
+}
+
+.rss_img {
+	background: url(RSS_icon.png) top left no-repeat;
+	width: 34px;
+	height: 34px;
+	float: left;
+	margin-right: 16px;
+}
+
+#primary a.rss_img:hover {
+	background: inherit;
+}
+
+.entry-title {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, sans-serif;
+	font-size: 23px;
+}
+
+.widget-archives select {
+	margin-left: 32px;
+}
+
+/* FOR PAGES */
+
+#content .page {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 16px;
+}
+
+#secondary {
+	border: 0;
+	width: 250px;
+	float: inherit;
+	clear: inherit;
+}
+
+.widget-nav-menu {
+	background: #EAE0D6;
+	border: 1px solid #BEBDBB;
+	width: 180px;
+	padding: 5px 10px 5px 5px;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	margin-left: 16px;
+}
+
+.widget-nav-menu ul li::before {
+	content: "";
+}
+
+.widget-nav-menu ul {
+	margin-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+}
+
+.widget-nav-menu ul li {
+	margin-top: 8px;
+	font-size: 13px !important;
+}
+
+.widget-nav-menu ul ul.children li {
+	margin-top: 0;
+	margin-left: 8px;
+	font-size: 11px !important;
+}
+
+.wordpress #container .widget-nav-menu a:link {
+	color: black;
+	line-height: 1.8em;
+	padding: 2px 5px 2px 5px;
+	margin: 0;
+	text-decoration: underline;
+}
+
+.wordpress #container .widget-nav-menu a:hover {
+	color: black;
+	background-color: inherit;
+}
+
+.wordpress #container .widget-nav-menu a:visited {
+	color: black;
+	background-color: inherit;
+}
+
+.wordpress #container .widget-nav-menu li.current_page_item a, #container #secondary .widget-nav-menu ul li ul.children li.current_page_item a {
+	color: white;
+	background: #A98064;
+	line-height: 1.8em;
+	padding: 2px 5px 2px 5px;
+	margin: 0;
+	text-decoration: none;
+}
+
+#container #secondary .widget-nav-menu ul li ul.children li a {
+	color: black;
+	line-height: 1.8em;
+	padding: 2px 5px 2px 5px;
+	margin: 0;
+	text-decoration: underline;
+	background-color: inherit;
+}
