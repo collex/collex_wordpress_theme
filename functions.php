@@ -19,12 +19,10 @@ add_filter( 'sidebars_widgets', 'disable_blog_primary');
 //*************************************
 // Change the breadcrumbs to be hidden for pages and be formatted differently
 // for posts
-function modify_breadcrumbs($breadcrumb, $args) {
+function modify_breadcrumbs($breadcrumb) {
 	if ( ! is_admin() ) {
 		if ( is_page() ){
 			$breadcrumb = "";
-		} else {
-			
 		}
 	}
 
