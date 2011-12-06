@@ -20,7 +20,7 @@ Version:        0.1.0
 	display: none;
 }
 
-#primary {
+.singular-page #primary {
 	border: 0;
 	border-right: 2px solid gray;
 	width: 250px;
@@ -93,7 +93,7 @@ input.search-text {
 	font-size: 16px;
 }
 
-#secondary {
+.singular-page #primary {
 	border: 0;
 	width: 250px;
 	float: inherit;
@@ -148,7 +148,7 @@ input.search-text {
 	background-color: inherit;
 }
 
-.wordpress #container .widget-nav-menu li.current_page_item a, #container #secondary .widget-nav-menu ul li ul.children li.current_page_item a {
+.wordpress #container .widget-nav-menu li.current_page_item a, .singular-page #container #primary .widget-nav-menu ul li ul.children li.current_page_item a {
 	color: white;
 	background: #A98064;
 	line-height: 1.8em;
@@ -157,7 +157,7 @@ input.search-text {
 	text-decoration: none;
 }
 
-#container #secondary .widget-nav-menu ul li ul.children li a {
+.singular-page #container #primary .widget-nav-menu ul li ul.children li a {
 	color: black;
 	line-height: 1.8em;
 	padding: 2px 5px 2px 5px;
