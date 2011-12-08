@@ -20,7 +20,7 @@ Version:        0.1.0
 	display: none;
 }
 
-.singular-page #primary {
+#primary {
 	border: 0;
 	border-right: 2px solid gray;
 	width: 250px;
