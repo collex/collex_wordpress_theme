@@ -1,0 +1,50 @@
+=collex_wordpress_theme
+
+A child of the Hybrid theme for gluing the WordPress portions to the Rails portions of Collex
+
+== Capabilities
+
+This adds the following to the Hybrid theme:
+
+* Removes the Breadcrumbs from the About pages.
+
+* Adds the 'yui-skin-sam' class to the body for the YUI library.
+
+* Supplies an icon for the RSS feed.
+
+* Defines a number of CSS styles for elements that are the same no matter which Collex installation is deployed.
+
+== Installation
+
+# From the WordPress administration panel, choose Appearance and Install Themes.
+
+# Install both the Hybrid theme and this one and make this theme active.
+
+# Go to the Install Plugins page.
+
+# Install the Rails Theme plugin and configure it.
+
+== Resources
+
+* {Hybrid Theme}[http://wordpress.org/extend/themes/hybrid]
+* {Rails Theme Plugin}[http://wordpress.org/extend/plugins/rails-theme/]
+
+== Author
+
+Paul Rosen <mailto:paul@performantsoftware.com>
+
+==Copyright
+
+Copyright 2011 Applied Research in Patacriticism and the University of Virginia
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
